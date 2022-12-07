@@ -1,350 +1,144 @@
 baseURL: 'https://splittingred.com/'
 languageCode: 'en-us'
 title: 'splittingred.com'
-theme: 'hugo-profile'
+theme: 'PaperMod'
 
-outputs:
-  home:
-    - "HTML"
-    - "RSS"
-    - "JSON"
-  page:
-    - "HTML"
-    - "RSS"
 
-Paginate: 3
-#disqusShortname: splittingred
-#googleAnalytics:
 enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+#googleAnalytics: UA-123-45
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
+minify:
+  disableXML: true
+  minifyOutput: true
 
 params:
-  title: "splittingred.com"
-  description: Hey, I'm Shaun
-  # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: splittingred.com
+  description: "Hi, I'm Shaun"
+  keywords: [ blog, portfolio, shaun mccormick, grpc, gruf ]
+  author: Shaun McCormick
+  # author: ["Me", "You"] # multiple authors
+  #images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "Jan 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
 
-  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
-  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
-  # Note the lack of "" in true, it should be of boolean type.
-  useBootstrapCDN: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
 
-  # Whether the fade animations on the home page will be enabled
-  animate: true
+  assets:
+  # disableHLJS: true # to disable highlight.js
+  # disableFingerprinting: true
+  #    favicon: "<link / abs url>"
+  #    favicon16x16: "<link / abs url>"
+  #    favicon32x32: "<link / abs url>"
+  #    apple_touch_icon: "<link / abs url>"
+  #    safari_pinned_tab: "<link / abs url>"
 
-  theme:
-    disableThemeToggle: false
-    defaultTheme: "light" # dark
+  label:
+    text: "shaun mccormick"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
 
-  font:
-    fontSize: 1rem # default: 1rem
-    fontWeight: 400 # default: 400
-    lineHeight: 1.5 # default: 1.5
-    textAlign: left # default: left
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "Hi, I'm Shaun"
+    #imageUrl: "<img location>"
+    #    imageWidth: 120
+    #    imageHeight: 120
+    #    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
 
-  # color preference
-  # color:
-  #   textColor:
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: |
+      principal eng. [@bigcommerce](https://bigcommerce.com). rubyist. all things mesh/devprod. board gamer. oss fan. 
+      dad puns. [gruf](https://github.com/bigcommerce/gruf) author, [grpc](https://github.com/grpc/grpc) contrib. 
+      alternative career: juice box writing
 
-  #   darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
+  socialIcons:
+    - name: github
+      url: "https://github.com/splittingred"
+    - name: twitter
+      url: "https://twitter.com/splittingred"
+    - name: linkedin
+      url: "https://linkedin.com/s/splittingred"
+    - name: mastodon
+      url: "https://ruby.social/@splittingred"
 
-  # If you want to customize the menu, you can change it here
-  navbar:
-    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    brandLogo: "/avatar.jpg" # Logo for the brand | default is the favicon variable
-    brandName: "" # Brand name for the brand | default is the title variable
-    disableSearch: false
-    menus:
-      disableAbout: false
-      disableExperience: false
-      disableEducation: true
-      disableProjects: false
-      disableAchievements: true
-      disableContact: true
+  #  analytics:
+  #    google:
+  #      SiteVerificationTag: "XYZabc"
+  #    bing:
+  #      SiteVerificationTag: "XYZabc"
+  #    yandex:
+  #      SiteVerificationTag: "XYZabc"
 
-  # Hero
-  hero:
-    enable: true
-    intro: "Hi, my name is"
-    title: "Shaun."
-    subtitle: ""
-    content: "principal eng. @bigcommerce. rubyist. all things mesh/devprod. board gamer. oss fan. dad puns. gruf author, grpc contrib. alternative career: juice box writing"
-    image: /images/hero.svg
-    button:
-      enable: false
-      name: "Resume"
-      url: "http://splittingred.s3.amazonaws.com/resume.pdf"
-      download: true
-      newPage: false
-    socialLinks:
-      fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://github.com/splittingred
-        - icon: fab fa-twitter
-          url: https://twitter.com/splittingred
-#      customIcons:
-#        - icon: /fav.png
-#          url: "https://example.com"
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
 
-  # About
-  about:
-    enable: true
-    title: "About Me"
-    image: "/images/me.png"
-    content: |-
-      I love building things.
-      
-      I'm currently a Principal Engineer at BigCommerce in Austin, and a former Sr Architect for MODX.
-      
-      I've built and led teams to build high-scaling, dynamic services and systems in many various languages and technologies, including Ruby, PHP, Golang, and JavaScript, with further experience in Rails, gRPC, Envoy, MySQL, Consul, Google Cloud, SCSS/SASS, RabbitMQ, 0mq, linkerd, Scala, Docker, Nomad, Sencha, Angular, ExtJS, ColdFusion, terraform, kubernetes, and others. I'm familiar with designing and directing microservices, hexagonal architectures, authorization systems, development environments, open source libraries, and asynchronous event-driven systems.
-      
-      I believe in the power of team over individuals, and how processes and practices can shape that at companies. I value transparency and collaboration, and think the most successful teams are built on trust and accountability. I believe iterative progress beats idealistic arguments every time.
-      
-      I love to code with quality, build neat tech, and generally just get stuff done.
-    skills:
-      enable: false
-      title: "Here are a few technologies I've been working with recently:"
-      items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+  editPost:
+    URL: "https://github.com/splittingred/splittingred.com/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 
-  # Experience
-  experience:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - job: "Principal Engineer"
-        company: "BigCommerce"
-        companyUrl: "https://bigcommerce.com"
-        date: "Jul 2013 - present"
-        featuredLink:
-          enable: false
-          url: "https://example.com"
-        info:
-          enable: false
-          content: ""
-        content: |
-          * Guiding direction of broader service-oriented architecture
-          * Leading technology for Ruby language across BigCommerce
-          * Maintaining and upgrading service mesh (LinkerD and Envoy/Consul Connect) across platform, including 
-            integration with container scheduling and deployment tooling (Nomad/Consul/Vault)
-          * Open sourcing and maintaining 15+ OSS libraries for BigCommerce, as well as driving company open 
-            source processes and releases
-          * Leading and driving architecture and development for multiple strategic company initiatives
-          * Leading Staff Engineering group into an asynchronous technical culture and collaborative 
-            environment, drove formation of Engineering technical roadmap
-          * Architecting and driving deployments and observability improvements across SOA
-
-      - job: "Software Architect / Director"
-        company: "MODX"
-        companyUrl: "https://modx.com"
-        date: "Aug 2008 - Jul 2013"
-        featuredLink:
-          enable: false
-          url: "https://example.com"
-        info:
-          enable: false
-          content: ""
-        content: |
-          Director of the SiphonLabs Cloud platform. Designed custom applications and integrations for MODX Systems, 
-          external clients and 3rd party systems; managed development efforts for multiple projects and teams; and 
-          setup and deploy multiple environments and servers. And wrote code. Lots of code.
-
-          * Led development, planning and execution of the SiphonLabs Cloud system, including a team of engineering 
-            and design specialists to deliver a solid product with an agile process.
-
-          * Designed and implemented a SOA-based system with multiple SPA JS UIs, a robust distributed API, and 
-            threaded deployment and server management system built in PHP, Ruby and other languages.
-
-          * Coordinated product vision and strategy with executives in the company to maximize efficiency and adoption
-
-          * Made decisions based on data, not speculation, using analytics, usage metrics and customer research to 
-            appropriately path out product needs and demands
-
-          * Scoped out and created proper deployment, testing and continuous integration methods for all applications 
-            delivered and servedDirector of the SiphonLabs Cloud platform. Designed custom applications and 
-            integrations for MODX Systems, external clients and 3rd party systems; managed development efforts for 
-            multiple projects and teams; and setup and deploy multiple environments and servers. And wrote code. 
-            Lots of code. 
-          
-          * Led development, planning and execution of the SiphonLabs Cloud system, including a team of engineering 
-            and design specialists to deliver a solid product with an agile process. * Designed and implemented a 
-            SOA-based system with multiple SPA JS UIs, a robust distributed API, and threaded deployment and server 
-            management system built in PHP, Ruby and other languages. * Coordinated product vision and strategy with
-            executives in the company to maximize efficiency and adoption * Made decisions based on data, not 
-            speculation, using analytics, usage metrics and customer research to appropriately path out product needs 
-            and demands 
-          
-          * Scoped out and created proper deployment, testing and continuous integration methods for all 
-            applications delivered and served
-
-      - job: "Lead Software Engineer"
-        company: "LTC - UT Austin"
-        #companyUrl: "https://example.com"
-        date: "May 2004 - Jul 2008"
-        info:
-          enable: false
-        featuredLink:
-          enable: false
-          url: ""
-        content: |
-          Responsible for development of all internal web applications, maintenance for general systems, setup and deployment of college CMS, and other duties.
-  
-          * Lead a team of student developers, leading internal training and planning sessions for project requirements, and progressing action items to delivery
-  
-          * Architected all internal applications and core framework for daily operations for center
-  
-          * Facilitated training sessions for educators in the college on how to use CMS, and staff on how to use internal systems
-
-  # Education
-  education:
-    enable: false
-    # title: "Custom Name"
-    index: false
-#    items:
-#      - title: "Master of Business Administration"
-#        school:
-#          name: "University of California, Berkeley"
-#          url: "https://example.org"
-#        date: "2013 - 2015"
-#        GPA: "3.8 out of 5.0"
-#        content: |-
-#          Extracurricular Activities
-#            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-#            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-#      - title: "Bachelor of Science in Computer Science"
-#        school:
-#          name: "Massachusetts Institute of Technology"
-#          url: "https://example.org"
-#        date: "2009 - 2013"
-#        GPA: "3.9 out of 5.0"
-#        content: |-
-#          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-#          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-#          - Face mask detection using a single convolutional neural network.
-#          Extracurricular Activities
-#            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-#            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-#        featuredLink:
-#          enable: true
-#          name: "My academic record"
-#          url: "https://example.com"
-#      - title: "High School"
-#        school:
-#          name: "Thomas Jefferson High School for Science and Technology."
-#          url: "https://example.org"
-#        GPA: "4.2 out of 5.0"
-#        featuredLink:
-#          enable: true
-#          url: "https://example.com"
-
-  # Achievements
-#  achievements:
-#    enable: true
-#    # title: "Custom Name"
-#    items:
-#      - title: Google kickstart runner
-#        content: I solved all problems with optimal solution.
-#        url: https://example.com
-#      - title: Facebook Hackathon Winner
-#        content: Developed a product using Artificial Intelligence.
-#      - title: Hugo Profile
-#        content: Developed a theme and getting 1K+ downloads per month.
-#        url: "https://github.com/gurusabarish/hugo-profile"
-#      - title: Microsoft Imagine Runner
-#        content: We are developed a product which can help others.
-#      - title: Google Summer of Code
-#        content: Contributed to a open source project.
-#        url: https://example.com
-
-  # projects
-  projects:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: gruf
-        content: |
-          gruf is a Ruby framework that wraps the gRPC Ruby library to provide a more streamlined integration
-          into Ruby and Ruby on Rails applications. It provides an abstracted server and client for gRPC services, 
-          along with other tools to help get gRPC services in Ruby up fast and efficiently at scale.
-        #image: /images/projects/profile.png
-        featured:
-          enable: false
-          name: view on github
-          link: https://github.com/bigcommerce/gruf
-        badges:
-          - "grpc"
-          - "ruby"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/bigcommerce/gruf
-
-  #Contact
-  contact:
-    enable: false
-    # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: splittingred@gmail.com
-    btnName: Mail me
-
-  footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
-    socialNetworks:
-      github: https://github.com/splittingred
-      linkedin: https://linkedin.com/s/splittingred
-      twitter: https://twitter.com/splittingred
-#      instagram: https://instagram.com
-#      facebook: https://facebook.com
-
-  # List pages like blogs and posts
-  listPages:
-    disableFeaturedImage: true
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: [ "title", "permalink", "summary", "content" ]
+menu:
+  main:
+    #    - identifier: categories
+    #      name: categories
+    #      url: /categories/
+    #      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: github
+      name: github
+      url: https://github.com/splittingred
+      weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
