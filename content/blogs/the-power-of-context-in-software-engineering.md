@@ -1,8 +1,14 @@
 ---
 title: "The Power of Context in Software Engineering"
-date: 2014-30-03T20:57:59-06:00
+date: 2014-03-30T22:53:58+05:30
 draft: false
+tags:
+- software engineering
+- prioritization
+toc:
+description: "Or, Where 10x Really Lies"
 ---
+
 
 It seems like every single company I’ve worked for, or interacted with, is currently striving to find the “10x”
 engineer, the rock-star developer, the genius game-changer software architect. Much effort and time are put toward
