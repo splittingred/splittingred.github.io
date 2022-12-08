@@ -86,7 +86,7 @@ params:
     - name: twitter
       url: "https://twitter.com/splittingred"
     - name: linkedin
-      url: "https://linkedin.com/s/splittingred"
+      url: "https://www.linkedin.com/in/splittingred/"
     - name: mastodon
       url: "https://ruby.social/@splittingred"
 
