@@ -2,6 +2,9 @@
 title: "Learn the Code"
 date: 2014-05-18T13:20:30-06:00
 draft: false
+tags:
+- software engineering
+- management
 ---
 
 A good buddy of mine worked at a software company a few years ago that was moving at a breakneck pace of growth. The

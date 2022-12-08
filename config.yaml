@@ -9,7 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-#googleAnalytics: UA-123-45
+googleAnalytics: UA-13101242-2
 
 minify:
   disableXML: true
@@ -132,6 +132,10 @@ menu:
       name: github
       url: https://github.com/splittingred
       weight: 30
+    - identifier: mastodon
+      name: mastodon
+      url: https://ruby.social/@splittingred
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

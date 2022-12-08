@@ -2,6 +2,10 @@
 title: "Why the Way We Look at Technical Debt Is Wrong"
 date: 2016-01-19T21:45:03-06:00
 draft: false
+tags:
+- software engineering
+- prioritization
+- architecture
 ---
 
 This post is cross-posted from bigeng.io — feel free to read there!

@@ -5,8 +5,6 @@ draft: false
 tags:
 - software engineering
 - prioritization
-toc:
-description: "Or, Where 10x Really Lies"
 ---
 
 

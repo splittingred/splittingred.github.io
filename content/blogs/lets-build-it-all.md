@@ -2,6 +2,9 @@
 title: "Lets Build It All"
 date: 2014-04-01T21:41:48-06:00
 draft: false
+tags:
+- software engineering
+- prioritization
 ---
 
 A long while ago, I did a consulting gig for a mid-sized company. This company had spent thousands of dollars on a
