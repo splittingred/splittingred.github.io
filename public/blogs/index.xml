@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Blogs on splittingred.com</title>
+    <title>Blogs on shaun mccormick</title>
     <link>https://splittingred.com/blogs/</link>
-    <description>Recent content in Blogs on splittingred.com</description>
+    <description>Recent content in Blogs on shaun mccormick</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 Jan 2016 21:45:03 -0600</lastBuildDate><atom:link href="https://splittingred.com/blogs/index.xml" rel="self" type="application/rss+xml" />
@@ -13,11 +13,18 @@
       <pubDate>Tue, 19 Jan 2016 21:45:03 -0600</pubDate>
       
       <guid>https://splittingred.com/blogs/why-the-way-we-look-at-technical-debt-is-wrong/</guid>
-      <description>This post is cross-posted from bigeng.io — feel free to read there!
-I’ll be straightforward at the start of this post: I firmly believe that the most important issue a company deals with is how it reconciles itself with technical debt. Period.
-Now, here’s the real point of this post:
-Technical Debt is a Positive and Necessary Step in software engineering.
-First off, let’s define technical debt for the purposes of this post, as the words can mean many different things to different people.</description>
+      <description>&lt;p&gt;This post is cross-posted from bigeng.io — feel free to read there!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I’ll be straightforward at the start of this post: I firmly believe that the most important issue a company deals with
+is how it reconciles itself with technical debt. Period.&lt;/p&gt;
+&lt;p&gt;Now, here’s the real point of this post:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Technical Debt is a Positive and Necessary Step in software engineering.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;First off, let’s define technical debt for the purposes of this post, as the words can mean many different things to
+different people. I view technical debt as any code that decreases agility as the project matures. Note how I didn’t say
+bad code (as that is often subjective) or broken code. A good example is this: you have, say, a shipping application
+that doesn’t have 100% test coverage, has many classes violating SRP, and has poor domain modeling.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -26,7 +33,10 @@ First off, let’s define technical debt for the purposes of this post, as the w
       <pubDate>Sun, 18 May 2014 13:20:30 -0600</pubDate>
       
       <guid>https://splittingred.com/blogs/learn-the-code/</guid>
-      <description>A good buddy of mine worked at a software company a few years ago that was moving at a breakneck pace of growth. The company was doing well, and my friend was on a software development team that was in charge of one of the core parts of the product. He enjoyed his job, but found that he was never satisfied with his boss. The team always felt overworked, tech debt rose, and eventually quite a few high-talent engineers left.</description>
+      <description>&lt;p&gt;A good buddy of mine worked at a software company a few years ago that was moving at a breakneck pace of growth. The
+company was doing well, and my friend was on a software development team that was in charge of one of the core parts of
+the product. He enjoyed his job, but found that he was never satisfied with his boss. The team always felt overworked,
+tech debt rose, and eventually quite a few high-talent engineers left.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -35,7 +45,10 @@ First off, let’s define technical debt for the purposes of this post, as the w
       <pubDate>Tue, 01 Apr 2014 21:41:48 -0600</pubDate>
       
       <guid>https://splittingred.com/blogs/lets-build-it-all/</guid>
-      <description>A long while ago, I did a consulting gig for a mid-sized company. This company had spent thousands of dollars on a revamp for one of its sections on its website. It was pretty slick: filterable navigation, lazy-loading, compressed assets, blazing load times. It used all the modern design principles and standards. It was mobile friendly (a big deal for the time). The design was slick, informed and easy on the eyes.</description>
+      <description>&lt;p&gt;A long while ago, I did a consulting gig for a mid-sized company. This company had spent thousands of dollars on a
+revamp for one of its sections on its website. It was pretty slick: filterable navigation, lazy-loading, compressed
+assets, blazing load times. It used all the modern design principles and standards. It was mobile friendly (a big deal
+for the time). The design was slick, informed and easy on the eyes.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -44,7 +57,14 @@ First off, let’s define technical debt for the purposes of this post, as the w
       <pubDate>Sun, 30 Mar 2014 22:53:58 +0530</pubDate>
       
       <guid>https://splittingred.com/blogs/the-power-of-context-in-software-engineering/</guid>
-      <description>Or, Where 10x Really Lies</description>
+      <description>&lt;p&gt;It seems like every single company I’ve worked for, or interacted with, is currently striving to find the “10x”
+engineer, the rock-star developer, the genius game-changer software architect. Much effort and time are put toward
+getting these liberators of success, with companies not only believing but actively spreading the idea that these people
+exist, and they are going to get them.&lt;/p&gt;
+&lt;p&gt;There’s just one small problem. No one really knows what the 10x engineer does, or looks like, or represents. Is it
+someone that generates ten times as much SLOC than their peers? Do they deliver projects weeks earlier than others? Or
+do they just turn a mediocre team into a passionate, kick-ass development machine that creates products at insane
+speeds?&lt;/p&gt;</description>
     </item>
     
   </channel>
