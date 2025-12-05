@@ -282,7 +282,7 @@ params:
 #          enable: true
 #          url: "https://example.com"
 
-  # Achievements
+# Achievements
 #  achievements:
 #    enable: true
 #    # title: "Custom Name"
