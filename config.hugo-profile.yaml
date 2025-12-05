@@ -345,6 +345,7 @@ params:
 #      instagram: https://instagram.com
 #      facebook: https://facebook.com
 
+
   # List pages like blogs and posts
   listPages:
     disableFeaturedImage: true
