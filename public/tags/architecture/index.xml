@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Architecture on shaun mccormick</title>
-    <link>https://splittingred.com/tags/architecture/</link>
+    <link>http://localhost:1313/tags/architecture/</link>
     <description>Recent content in Architecture on shaun mccormick</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Jan 2016 21:45:03 -0600</lastBuildDate><atom:link href="https://splittingred.com/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jan 2016 21:45:03 -0600</lastBuildDate><atom:link href="http://localhost:1313/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why the Way We Look at Technical Debt Is Wrong</title>
-      <link>https://splittingred.com/blogs/why-the-way-we-look-at-technical-debt-is-wrong/</link>
+      <link>http://localhost:1313/blogs/why-the-way-we-look-at-technical-debt-is-wrong/</link>
       <pubDate>Tue, 19 Jan 2016 21:45:03 -0600</pubDate>
       
-      <guid>https://splittingred.com/blogs/why-the-way-we-look-at-technical-debt-is-wrong/</guid>
+      <guid>http://localhost:1313/blogs/why-the-way-we-look-at-technical-debt-is-wrong/</guid>
       <description>This post is cross-posted from bigeng.io — feel free to read there!
 I’ll be straightforward at the start of this post: I firmly believe that the most important issue a company deals with is how it reconciles itself with technical debt. Period.
 Now, here’s the real point of this post:

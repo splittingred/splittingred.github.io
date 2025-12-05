@@ -2,39 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://splittingred.com/tags/architecture/</loc>
+    <loc>http://localhost:1313/tags/architecture/</loc>
     <lastmod>2016-01-19T21:45:03-06:00</lastmod>
   </url><url>
-    <loc>https://splittingred.com/blogs/</loc>
+    <loc>http://localhost:1313/blogs/</loc>
     <lastmod>2016-01-19T21:45:03-06:00</lastmod>
   </url><url>
-    <loc>https://splittingred.com/tags/prioritization/</loc>
+    <loc>http://localhost:1313/tags/prioritization/</loc>
     <lastmod>2016-01-19T21:45:03-06:00</lastmod>
   </url><url>
-    <loc>https://splittingred.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2016-01-19T21:45:03-06:00</lastmod>
   </url><url>
-    <loc>https://splittingred.com/tags/software-engineering/</loc>
+    <loc>http://localhost:1313/tags/software-engineering/</loc>
     <lastmod>2016-01-19T21:45:03-06:00</lastmod>
   </url><url>
-    <loc>https://splittingred.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2016-01-19T21:45:03-06:00</lastmod>
   </url><url>
-    <loc>https://splittingred.com/blogs/why-the-way-we-look-at-technical-debt-is-wrong/</loc>
+    <loc>http://localhost:1313/blogs/why-the-way-we-look-at-technical-debt-is-wrong/</loc>
     <lastmod>2016-01-19T21:45:03-06:00</lastmod>
   </url><url>
-    <loc>https://splittingred.com/blogs/learn-the-code/</loc>
+    <loc>http://localhost:1313/blogs/learn-the-code/</loc>
     <lastmod>2014-05-18T13:20:30-06:00</lastmod>
   </url><url>
-    <loc>https://splittingred.com/tags/management/</loc>
+    <loc>http://localhost:1313/tags/management/</loc>
     <lastmod>2014-05-18T13:20:30-06:00</lastmod>
   </url><url>
-    <loc>https://splittingred.com/blogs/lets-build-it-all/</loc>
+    <loc>http://localhost:1313/blogs/lets-build-it-all/</loc>
     <lastmod>2014-04-01T21:41:48-06:00</lastmod>
   </url><url>
-    <loc>https://splittingred.com/blogs/the-power-of-context-in-software-engineering/</loc>
+    <loc>http://localhost:1313/blogs/the-power-of-context-in-software-engineering/</loc>
     <lastmod>2014-03-30T22:53:58+05:30</lastmod>
   </url><url>
-    <loc>https://splittingred.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>
