@@ -13,18 +13,11 @@
       <pubDate>Tue, 19 Jan 2016 21:45:03 -0600</pubDate>
       
       <guid>https://splittingred.com/blogs/why-the-way-we-look-at-technical-debt-is-wrong/</guid>
-      <description>&lt;p&gt;This post is cross-posted from bigeng.io — feel free to read there!&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;I’ll be straightforward at the start of this post: I firmly believe that the most important issue a company deals with
-is how it reconciles itself with technical debt. Period.&lt;/p&gt;
-&lt;p&gt;Now, here’s the real point of this post:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Technical Debt is a Positive and Necessary Step in software engineering.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;First off, let’s define technical debt for the purposes of this post, as the words can mean many different things to
-different people. I view technical debt as any code that decreases agility as the project matures. Note how I didn’t say
-bad code (as that is often subjective) or broken code. A good example is this: you have, say, a shipping application
-that doesn’t have 100% test coverage, has many classes violating SRP, and has poor domain modeling.&lt;/p&gt;</description>
+      <description>This post is cross-posted from bigeng.io — feel free to read there!
+I’ll be straightforward at the start of this post: I firmly believe that the most important issue a company deals with is how it reconciles itself with technical debt. Period.
+Now, here’s the real point of this post:
+Technical Debt is a Positive and Necessary Step in software engineering.
+First off, let’s define technical debt for the purposes of this post, as the words can mean many different things to different people.</description>
     </item>
     
   </channel>

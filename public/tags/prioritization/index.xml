@@ -13,18 +13,11 @@
       <pubDate>Tue, 19 Jan 2016 21:45:03 -0600</pubDate>
       
       <guid>https://splittingred.com/blogs/why-the-way-we-look-at-technical-debt-is-wrong/</guid>
-      <description>&lt;p&gt;This post is cross-posted from bigeng.io — feel free to read there!&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;I’ll be straightforward at the start of this post: I firmly believe that the most important issue a company deals with
-is how it reconciles itself with technical debt. Period.&lt;/p&gt;
-&lt;p&gt;Now, here’s the real point of this post:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Technical Debt is a Positive and Necessary Step in software engineering.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;First off, let’s define technical debt for the purposes of this post, as the words can mean many different things to
-different people. I view technical debt as any code that decreases agility as the project matures. Note how I didn’t say
-bad code (as that is often subjective) or broken code. A good example is this: you have, say, a shipping application
-that doesn’t have 100% test coverage, has many classes violating SRP, and has poor domain modeling.&lt;/p&gt;</description>
+      <description>This post is cross-posted from bigeng.io — feel free to read there!
+I’ll be straightforward at the start of this post: I firmly believe that the most important issue a company deals with is how it reconciles itself with technical debt. Period.
+Now, here’s the real point of this post:
+Technical Debt is a Positive and Necessary Step in software engineering.
+First off, let’s define technical debt for the purposes of this post, as the words can mean many different things to different people.</description>
     </item>
     
     <item>
@@ -33,10 +26,7 @@ that doesn’t have 100% test coverage, has many classes violating SRP, and has 
       <pubDate>Tue, 01 Apr 2014 21:41:48 -0600</pubDate>
       
       <guid>https://splittingred.com/blogs/lets-build-it-all/</guid>
-      <description>&lt;p&gt;A long while ago, I did a consulting gig for a mid-sized company. This company had spent thousands of dollars on a
-revamp for one of its sections on its website. It was pretty slick: filterable navigation, lazy-loading, compressed
-assets, blazing load times. It used all the modern design principles and standards. It was mobile friendly (a big deal
-for the time). The design was slick, informed and easy on the eyes.&lt;/p&gt;</description>
+      <description>A long while ago, I did a consulting gig for a mid-sized company. This company had spent thousands of dollars on a revamp for one of its sections on its website. It was pretty slick: filterable navigation, lazy-loading, compressed assets, blazing load times. It used all the modern design principles and standards. It was mobile friendly (a big deal for the time). The design was slick, informed and easy on the eyes.</description>
     </item>
     
     <item>
@@ -45,14 +35,8 @@ for the time). The design was slick, informed and easy on the eyes.&lt;/p&gt;</d
       <pubDate>Sun, 30 Mar 2014 22:53:58 +0530</pubDate>
       
       <guid>https://splittingred.com/blogs/the-power-of-context-in-software-engineering/</guid>
-      <description>&lt;p&gt;It seems like every single company I’ve worked for, or interacted with, is currently striving to find the “10x”
-engineer, the rock-star developer, the genius game-changer software architect. Much effort and time are put toward
-getting these liberators of success, with companies not only believing but actively spreading the idea that these people
-exist, and they are going to get them.&lt;/p&gt;
-&lt;p&gt;There’s just one small problem. No one really knows what the 10x engineer does, or looks like, or represents. Is it
-someone that generates ten times as much SLOC than their peers? Do they deliver projects weeks earlier than others? Or
-do they just turn a mediocre team into a passionate, kick-ass development machine that creates products at insane
-speeds?&lt;/p&gt;</description>
+      <description>It seems like every single company I’ve worked for, or interacted with, is currently striving to find the “10x” engineer, the rock-star developer, the genius game-changer software architect. Much effort and time are put toward getting these liberators of success, with companies not only believing but actively spreading the idea that these people exist, and they are going to get them.
+There’s just one small problem. No one really knows what the 10x engineer does, or looks like, or represents.</description>
     </item>
     
   </channel>
