@@ -3,7 +3,6 @@ languageCode: 'en-us'
 title: 'shaun mccormick'
 theme: 'PaperMod'
 
-
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -76,7 +75,7 @@ params:
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: |
-      principal eng. [@bigcommerce](https://bigcommerce.com). rubyist. all things mesh/devprod. board gamer. oss fan. 
+      principal eng. [@bigcommerce](https://bigcommerce.com). board gamer. oss fan. 
       dad puns. [gruf](https://github.com/bigcommerce/gruf) author, [grpc](https://github.com/grpc/grpc) contrib. 
       alternative career: juice box writing
 
@@ -87,8 +86,8 @@ params:
       url: "https://twitter.com/splittingred"
     - name: linkedin
       url: "https://www.linkedin.com/in/splittingred/"
-    - name: mastodon
-      url: "https://ruby.social/@splittingred"
+    - name: bluesky
+      url: "https://bsky.app/profile/splittingred.com"
 
   #  analytics:
   #    google:
@@ -131,11 +130,14 @@ menu:
     - identifier: github
       name: github
       url: https://github.com/splittingred
-      weight: 30
+    - identifier: bluesky
+      name: bluesky
+      url: https://bsky.app/profile/splittingred.com
+      weight: 40
     - identifier: mastodon
       name: mastodon
       url: https://ruby.social/@splittingred
-      weight: 40
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

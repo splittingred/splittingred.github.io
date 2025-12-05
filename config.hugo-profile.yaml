@@ -158,12 +158,12 @@ params:
     # title: "Custom Name"
     items:
       - job: "Principal Engineer"
-        company: "BigCommerce"
-        companyUrl: "https://bigcommerce.com"
+        company: "Commerce"
+        companyUrl: "https://commerce.com"
         date: "Jul 2013 - present"
         featuredLink:
           enable: false
-          url: "https://example.com"
+          url: "https://commerce.com"
         info:
           enable: false
           content: ""
